@@ -2155,7 +2155,7 @@
 0 0 -1 -1 2 1 #"\0"
 0 -1 1 #"\0"
 1.0 0 -1 -1 -1 -1 -1 -1 0 0 0 0 0 0 0.0 0.0 0.0 1.0 1.0 1.0 0 150 255 0
-0 0 -1 -1           0 4522 0 4 3 85
+0 0 -1 -1           0 4523 0 4 3 85
 (
  #";; The first three lines of this file were inserted by DrRacket. The"
  #"y record metadata"
@@ -2274,8 +2274,12 @@
 0 0 14 3 5 #"value"
 0 0 24 3 1 #" "
 0 0 14 3 8 #"children"
-0 0 24 3 2 #"))"
-0 0 24 29 1 #"\n"
+0 0 24 3 3 #")) "
+0 0 17 3 108
+(
+ #";didn't have time to make check-expects for the EC functions, but th"
+ #"ere still are check-expects for the rest"
+) 0 0 24 29 1 #"\n"
 0 0 24 29 1 #"\n"
 0 0 24 3 1 #"("
 0 0 15 3 6 #"define"
